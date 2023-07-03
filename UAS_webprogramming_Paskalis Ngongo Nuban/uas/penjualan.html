@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Baju Keren</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TOKO BAJU PANZA</h1>
+        <div class="input-container">
+            <label for="nama">Nama Baju:</label>
+            <input type="text" id="nama" placeholder="Masukkan nama baju">
+        </div>
+        <div class="input-container">
+            <label for="harga">Harga:</label>
+            <input type="number" id="harga" placeholder="Masukkan harga baju">
+        </div>
+        <div class="input-container">
+            <label for="jumlah">Jumlah:</label>
+            <input type="number" id="jumlah" placeholder="Masukkan jumlah baju">
+        </div>
+        <button onclick="tambahBaju()">Tambah</button>
+        <div class="daftar-baju" id="daftar-baju">
+            <!-- daftar baju akan ditampilkan di sini -->
+        </div>
+        <div class="total">
+            <p>Total: <span id="total">0</span></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
